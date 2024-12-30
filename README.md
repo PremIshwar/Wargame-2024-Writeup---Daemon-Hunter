@@ -1,11 +1,14 @@
 # Wargames 2024 Writeup - DaemonHunter
 
+
 ## Introduction
 Hi! This my writeup on my solves for Wargames 2024. I'm still quite new to CTF, so I did not get many solves. I still had fun participating and I can't wait to do the same next year!
 
 
 
+
 ## Forensic
+
 
 ### I Cant Manipulate People
 This one is fairly simple, it's one pcap file. 
@@ -17,6 +20,7 @@ Knowing this, we can write a tshark command to extract the data from the end of 
 ![image](https://github.com/user-attachments/assets/ae7c9faf-fab2-4be6-b3ad-da13631e5137)
 
 Flag found!
+
 
 
 ### Unwanted Meow
@@ -38,7 +42,9 @@ NOTE: HxD didnt managed to get all the "meow", so I had to open the hex in VSCod
 
 
 
+
 ## Misc
+
 
 ### Christmas GIFt
 We are give a huge (and long) GIF file
@@ -46,6 +52,7 @@ We are give a huge (and long) GIF file
 Using stegsolve's frame browser, I just browsed the frames until I found the one with the flag
 
 ![image](https://github.com/user-attachments/assets/a3bad3a0-eea8-4dc6-9e7f-53f50b39aadc)
+
 
 
 ### Invisible Ink
@@ -67,7 +74,9 @@ I layered the images in GIMP and played with the opacity, finally getting this:
 
 
 
+
 ## Crypto
+
 
 ### Credentials
 Question: We found a leak of a blackmarket website's login credentials. Can you find the password of the user osman and successfully decrypt it?
@@ -86,7 +95,9 @@ Its encrypted with some sort of ROT cipher. After playing around with the key va
 
 
 
+
 ## Reverse
+
 
 ### Stones
 Question: When Thanos snapped his fingers, half of the flag was blipped. We need the Avengers to retrieve the other half. There's no flag in the movie, but there is a slash flag on the server
@@ -134,6 +145,7 @@ I changed the date the code was using to send the request to the upload date of 
 ![image](https://github.com/user-attachments/assets/575cec93-83b1-4249-8266-a446faf6b282)
 
 Got the flag!
+
 
 
 
