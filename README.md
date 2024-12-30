@@ -46,7 +46,6 @@ We are given a GIF that countsdown to a flag reveal, but we can see it
 Using stegsolve's frame browser, I just browsed the frames until I found the one two weird frames
 
 ![image](https://github.com/user-attachments/assets/45690809-475e-43b0-a314-5c7cc66aad3c)
-
 ![image](https://github.com/user-attachments/assets/17aea0d4-b5a5-4cd0-b4da-45221268bdea)
 
 After playing with the color maps in stegsolve, I got this out of the two frames
@@ -100,6 +99,33 @@ Instead of changing the magic number of the .pyc file, I used an online converte
 
 ![image](https://github.com/user-attachments/assets/d8881c79-b72f-411a-a9ec-a5fa5fe29b55)
 
+This code sends a carfted request to a server containing a part of the flag and a date 
+There's a few things here:
+- A part of the flag
+- A server IP
+
+Navigating to the IP with a "/flag" at the end returns this
+
+![image](https://github.com/user-attachments/assets/3d94e734-a02e-4eb2-ae9f-0ed3caabf3f8)
+
+This youtube link is for an Avengers Endgame clip, with the key "Upload Date"
+
+![image](https://github.com/user-attachments/assets/4417ab65-1ec3-47f0-969b-ddae2706ccd0)
+
+With all this information, I made some changes to the code
+
+![image](https://github.com/user-attachments/assets/5f07697d-61f9-41b4-a178-9c0030670a55)
+
+I changed the date the code was using to send the request to the upload date of the youtube video
+
+![image](https://github.com/user-attachments/assets/575cec93-83b1-4249-8266-a446faf6b282)
+
+Got the flag!
+
+
+
+## Conclusion
+Well, that's all the flags I got this time. It's not much but it was fun. I'm looking forward to try again next year. Thanks for reading!
 
 
 
