@@ -1,3 +1,7 @@
-# Wargame-2024-Writeup---Daemon-Hunter
+# Wargames 2024 Writeup - DaemonHunter
 
-![image](https://github.com/user-attachments/assets/2704d0e5-03f2-4e87-b4dc-10d291c53de1)
+## Introduction
+Hi! This my writeup on my solves for Wargames 2024. I'm still quite new to CTF, so I did not get many solves. I still had fun participating and I can't wait to do the same next year!
+
+## Forensic
+### I Cant Manipulate People
